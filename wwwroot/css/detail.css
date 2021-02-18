@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Newsreader&display=swap');
+
+/* index.cshtml */
+
+.text-center{
+    font-family: 'Newsreader', serif;
+    /* font-family: 'Karla', sans-serif; */
+    
+}
+.detailPage {
+    width: 70%;
+    border: rgb(187, 207, 228) 7px solid;
+    padding: 40px 0;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+/* detail.cshtml */
+.detailTop h1, h3 {
+    text-align: center;
+}
+
+.detailTop h3 {
+    border-bottom: 2px gray solid;
+    padding-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.detailMain {
+    margin: 30px 0;
+}
+
+.detailMain h4 {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    margin: 20px 30px;
+    font-weight: bold;
+    font-size: 25px;
+}

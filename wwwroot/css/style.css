@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Newsreader&display=swap');
+
+/* index.cshtml */
+
+.text-center{
+    font-family: 'Newsreader', serif;
+    /* font-family: 'Karla', sans-serif; */
+    /* width: 90%; */
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+.indexTopBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.indexTopBox h2 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+
+.indexTopBox h3 a {
+    text-decoration: underline;
+    margin-right: 100px;
+}
+.mainBox{
+    text-align: left;
+}
+
+/* new.cshtml */
+h3 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: rgb(187, 207, 228) 5px solid;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.formBox {
+    width: 400px;
+}
+
+    .formBox span {
+        color: orange;
+    }
+
+button {
+    margin-top: 20px;
+}

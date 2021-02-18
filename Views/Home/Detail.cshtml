@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Dish Detail";
+    <link rel="stylesheet" href="~/css/detail.css">
+}
+@model Dish
+
+<div class="text-center">
+    <partial name="HomePartial" />
+    <div class="detailPage">
+
+    <div class="detailTop">
+        <h1>@ViewBag.OneDish.Name</h1>
+        <h3>@ViewBag.OneDish.Chef</h3>
+    </div>
+
+    <div class="detailMain">
+        <h4>@ViewBag.OneDish.Description</h4>
+        <h4><span>Calories:</span> @ViewBag.OneDish.Calories</h4>
+        <h4><span>Tastiness:</span> @ViewBag.OneDish.Tastiness</h4>
+    </div>
+
+    <div class="buttonBox">
+        <button class="btn btn-outline-warning"><a style="color: orange" href="/delete/@ViewBag.OneDish.DishId">DELETE</a></button>
+        <button class="btn btn-outline-success"><a style="color: green" href="/edit/@ViewBag.OneDish.DishId">EDIT</a></button>
+    </div>
+    </div>
+</div>
